@@ -1,0 +1,128 @@
+/* the styles for the elements */
+body {
+	font-family: "Palatino Linotype", "Book Antiqua", "Palatino, serif";
+    font-size: 100%;
+}
+ .Box {
+ border: 5px solid darkgoldenrod;
+background-color:white;
+padding: 1em;
+border-radius: 5px
+}
+}
+*{margin: 1.5em}
+
+/* the styles for the header */
+.toprightcorner{
+    z-index: 2;
+    height: 200px;
+    position:fixed;
+    right: -65px;
+    top: -21px;
+}
+.topleftcorner{
+    z-index: 2;
+    height: 200px;
+    position:fixed;
+    left: -45px;
+    top: -10px;
+}
+header h2 {
+    font-size 100%;
+}
+header h3 {
+    font-size: 150%;
+    font-style: italic;
+}
+.imgcenter {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.column{
+    
+}
+h1{
+    white-space: nowrap;
+}
+.textcenter {
+    text-align: center
+}
+
+.whitetext{
+    color: white
+}
+.leftsidebar{
+    position: absolute;
+    z-index: 1;
+    border: 5px solid black;
+    background-color:darkgoldenrod;
+    padding: .5em;
+    border-radius: 5px;
+    opacity: .5;
+}
+.leftsidebar:hover, .leftsidebar:focus, .rightsidebar:hover, .rightsidebar:focus{
+    opacity: 1;
+}
+p img{
+    height: 5em;
+    border: 1px solid white;
+    border-radius: 5px
+}
+.leftsidebar h3{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-top: .3em;
+    padding-bottom: .3em
+}
+.rightsidebar{
+    right: 0;
+    color: white;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    border: 5px solid white;
+    background-color:darkgoldenrod;
+    padding: .5em;
+    border-radius: 5px;
+    opacity: .5;
+}
+.rightsidebar h3{
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding-top: .3em;
+    padding-bottom: .3em
+}
+
+}
+/* the styles for the section */
+
+}
+main h1 {
+    font-size: 150%
+}
+main h2 {
+    font-size 130%;
+    padding: .5em
+}
+main h3 {
+    font-size: 150%
+}
+
+/* the styles for the footer */
+footer h3{
+     margin-left: 50%;
+    transform: translateX(-50%);
+    font-size: 150%;
+    width:20%;
+}
+em{
+    font-style: italic;
+    font-weight: 700;
+    color:crimson
+}
+#authorsnote{
+
+    font-style: italic;
+}
